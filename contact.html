@@ -98,41 +98,6 @@
       </aside>
     </div>
   </section>
-
-  <!-- Coming Soon Modal -->
-<div id="coming-soon-modal" class="coming-soon-overlay">
-  <div class="coming-soon-card">
-    <button class="close-btn">&times;</button>
-
-    <h2>Contact Is Opening Soon 💬</h2>
-    <p>
-      Our contact experience is currently being finalized.  
-      We’re setting things up to make reaching us seamless and meaningful.
-    </p>
-
-    <small>Coming soon — we’ll be live shortly.</small>
-  </div>
 </div>
-
-<script>
-  window.addEventListener("load", () => {
-    const modal = document.getElementById("coming-soon-modal");
-    const closeBtn = modal.querySelector(".close-btn");
-
-    setTimeout(() => {
-      modal.classList.add("show");
-    }, 600);
-
-    closeBtn.addEventListener("click", () => {
-      modal.classList.remove("show");
-    });
-
-    modal.addEventListener("click", e => {
-      if (e.target === modal) {
-        modal.classList.remove("show");
-      }
-    });
-  });
-</script>
 </body>
 </html>
