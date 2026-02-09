@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Work</title>
+    <link rel="stylesheet" href="work-page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+  <section class="work-page">
+
+    <header class="work-header">
+      <p class="back-link">
+            <i class="fas fa-arrow-left"></i>
+            Back to Home
+        </p>
+
+      <div class="work-title">
+        <h1>Our Work.</h1>
+      </div>
+
+      <nav class="work-filters">
+        <div>
+            <p>
+          A selection of digital products we’ve engineered from concept to scale.
+        </p>
+        </div>
+
+        <div>
+        <button class="active">All Projects</button>
+        <button>Fintech</button>
+        <button>Healthcare</button>
+        </div>
+      </nav>
+    </header>
+
+    <section class="projects-grid">
+  <!-- Project Card 1 -->
+  <article class="project-card" data-category="fintech">
+    <div class="project-image">
+      <span class="project-label">Project 01</span>
+    </div>
+    <div class="project-info">
+      <div class="tech-stack">
+        <small>FINTECH</small>
+        <div>
+          <span>React</span>
+          <span>D3.js</span>
+          <span>Tailwind</span>
+        </div>
+      </div>
+      <h3>FinDeck</h3>
+      <p>
+        A comprehensive financial analytics dashboard built for real-time
+        market data visualization.
+      </p>
+    </div>
+  </article>
+
+  <!-- Project Card 2 -->
+  <article class="project-card" data-category="healthcare">
+    <div class="project-image">
+      <span class="project-label">Project 02</span>
+    </div>
+    <div class="project-info">
+      <div class="tech-stack">
+        <small>HEALTHCARE</small>
+        <div>
+          <span>NEXT.JS</span>
+          <span>WEBRTC</span>
+          <span>POSTGRESQL</span>
+        </div>
+      </div>
+      <h3>HealthStream</h3>
+      <p>
+        End-to-end telemedicine platform with source video conferencing and patient record management.
+      </p>
+    </div>
+  </article>
+
+  <!-- Project Card 3 -->
+  <article class="project-card" data-category="productivity">
+    <div class="project-image">
+      <span class="project-label">Project 03</span>
+    </div>
+    <div class="project-info">
+      <div class="tech-stack">
+        <small>PRODUCTIVITY</small>
+        <div>
+          <span>TYPESCRIPT</span>
+          <span>NODE.JS</span>
+          <span>OPENAI</span>
+        </div>
+      </div>
+      <h3>Nexus OS</h3>
+      <p>
+        An AI-powered project management system for distributed engineering team.
+    </div>
+  </article>
+
+  <!-- Project Card 4 -->
+  <article class="project-card" data-category="sustainability">
+    <div class="project-image">
+      <span class="project-label">Project 04</span>
+    </div>
+    <div class="project-info">
+      <div class="tech-stack">
+        <small>SUSTAINABILITY</small>
+        <div>
+          <span>VUE.JS</span>
+          <span>MQTT</span>
+          <span>PYHTON</span>
+        </div>
+      </div>
+      <h3>EcoPulse</h3>
+      <p>
+        IoT dashboard for monitoring industrial carbon footprints and energy efficiency.
+      </p>
+    </div>
+  </article>
+</section>
+
+<!-- Coming Soon Modal -->
+<div id="coming-soon-modal" class="coming-soon-overlay">
+  <div class="coming-soon-card">
+    <button class="close-btn">&times;</button>
+
+    <h2>Something Exciting Is Coming ✨</h2>
+    <p>
+      We’re currently putting the final touches on this page.  
+      Big ideas, bold projects, and beautiful experiences are on the way.
+    </p>
+
+    <small>Stay tuned — launch coming soon.</small>
+  </div>
+</div>
+
+<footer class="footer-card">
+    <div class="foot">
+        <div>
+        <h3>Have a project in mind?</h3>
+        <p>We're always looking for ambitious founders to parner with.</p>
+        <button>Let's Talk</button>
+        </div>
+    </div>
+</footer>
+<script src="work-page.js"></script>
+</body>
+</html>
