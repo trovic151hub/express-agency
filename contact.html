@@ -4,17 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="component.css">
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
+
+   
+    <nav class="navbar">
+        <div class="container navbar__container">
+            <a href="#" class="navbar__logo">XENITH.</a>
+            
+            <div class="navbar__links">
+                <a href="#vision" class="navbar__link">Vision</a>
+                <a href="#services" class="navbar__link">Services</a>
+                <a href="#process" class="navbar__link">Process</a>
+                <a href="./work-page.html" class="navbar__link">Our Work</a>
+                <a href="./contact.html" class="btn-primary">Build With Us</a>
+            </div>
+
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="mobile-nav" id="mobile-nav">
+        <a href="#vision" class="navbar__link" style="font-size: 1.2rem;">Vision</a>
+        <a href="#services" class="navbar__link" style="font-size: 1.2rem;">Services</a>
+        <a href="#process" class="navbar__link" style="font-size: 1.2rem;">Process</a>
+        <a href="./work-page.html" class="navbar__link" style="font-size: 1.2rem;">Our Work</a>
+        <a href="./contact.html" class="btn-primary">Build With Us</a>
+    </div>
+
   <section class="contact-page">
 
     <div class="head">
-        <p class="back-link">
+        <a href="./index.html" class="back-link">
             <i class="fas fa-arrow-left"></i>
             Back to Home
-        </p>
+        </a>
 
         <h1>
             Let’s Build <br />
@@ -100,4 +131,5 @@
   </section>
 </div>
 </body>
+<script src="component.js"></script>
 </html>
