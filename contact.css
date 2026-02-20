@@ -287,3 +287,31 @@ textarea {
 .submit-btn:hover {
   color: #fff;
 }
+
+
+/* Responsive */
+@media (max-width: 900px) {
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .form-row {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contact-page {
+        padding: 100px 25px; /* More breathing room */
+    }
+
+    .head h1 {
+        font-size: 2rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+}
